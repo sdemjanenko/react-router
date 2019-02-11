@@ -1,1 +1,1 @@
-export { Prompt as default } from 'react-router'
+export { Prompt as default } from 'mki-react-router'

@@ -1,1 +1,1 @@
-export { MemoryRouter as default } from 'react-router'
+export { MemoryRouter as default } from 'mki-react-router'

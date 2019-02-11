@@ -1,1 +1,1 @@
-export { withRouter as default } from 'react-router'
+export { withRouter as default } from 'mki-react-router'

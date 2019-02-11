@@ -1,1 +1,1 @@
-export { matchPath as default } from 'react-router'
+export { matchPath as default } from 'mki-react-router'

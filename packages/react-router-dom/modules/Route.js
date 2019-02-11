@@ -1,1 +1,1 @@
-export { Route as default } from 'react-router'
+export { Route as default } from 'mki-react-router'
