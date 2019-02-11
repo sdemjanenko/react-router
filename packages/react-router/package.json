@@ -1,12 +1,13 @@
 {
-  "name": "react-router",
+  "name": "mki-react-router",
   "version": "4.0.0",
   "description": "Declarative routing for React",
-  "repository": "ReactTraining/react-router",
+  "repository": "sdemjanenko/react-router",
   "license": "MIT",
   "authors": [
     "Michael Jackson",
-    "Ryan Florence"
+    "Ryan Florence",
+    "Stephen Demjanenko"
   ],
   "files": [
     "MemoryRouter.js",
@@ -34,7 +35,7 @@
     "test": "karma start --single-run"
   },
   "peerDependencies": {
-    "react": "^15"
+    "react": "^15.0.0 || ^16.0.0"
   },
   "dependencies": {
     "history": "^4.6.0",
