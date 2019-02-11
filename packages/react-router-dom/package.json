@@ -1,12 +1,13 @@
 {
-  "name": "react-router-dom",
+  "name": "mki-react-router-dom",
   "version": "4.0.0",
   "description": "DOM bindings for React Router",
-  "repository": "ReactTraining/react-router",
+  "repository": "sdemjanenko/react-router",
   "license": "MIT",
   "authors": [
     "Michael Jackson",
-    "Ryan Florence"
+    "Ryan Florence",
+    "Stephen Demjanenko"
   ],
   "files": [
     "BrowserRouter.js",
@@ -38,11 +39,11 @@
     "test": "karma start --single-run"
   },
   "peerDependencies": {
-    "react": "^15"
+    "react": "^15.0.0 || ^16.0.0"
   },
   "dependencies": {
     "history": "^4.5.1",
-    "react-router": "^4.0.0"
+    "mki-react-router": "^4.0.0"
   },
   "devDependencies": {
     "babel-cli": "^6.18.0",
