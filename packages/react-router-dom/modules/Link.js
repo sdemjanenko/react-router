@@ -23,7 +23,7 @@ class Link extends React.Component {
   }
 
   static contextTypes = {
-    router: PropTypes.shape({
+    router4: PropTypes.shape({
       history: PropTypes.shape({
         push: PropTypes.func.isRequired,
         replace: PropTypes.func.isRequired,
@@ -44,7 +44,7 @@ class Link extends React.Component {
     ) {
       event.preventDefault()
 
-      const { history } = this.context.router
+      const { history } = this.context.router4
       const { replace, to } = this.props
 
       if (replace) {
@@ -58,7 +58,7 @@ class Link extends React.Component {
   render() {
     const { replace, to, ...props } = this.props // eslint-disable-line no-unused-vars
 
-    const href = this.context.router.history.createHref(
+    const href = this.context.router4.history.createHref(
       typeof to === 'string' ? { pathname: to } : to
     )
 

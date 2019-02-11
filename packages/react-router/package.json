@@ -1,6 +1,6 @@
 {
   "name": "mki-react-router",
-  "version": "4.0.1",
+  "version": "4.0.2",
   "description": "Declarative routing for React",
   "repository": "sdemjanenko/react-router",
   "license": "MIT",

@@ -77,12 +77,12 @@ class StaticRouter extends React.Component {
   }
 
   static childContextTypes = {
-    router: PropTypes.object.isRequired
+    router4: PropTypes.object.isRequired
   }
 
   getChildContext() {
     return {
-      router: {
+      router4: {
         staticContext: this.props.context
       }
     }

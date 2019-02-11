@@ -22,7 +22,7 @@ class Route extends React.Component {
   }
 
   static contextTypes = {
-    router: PropTypes.shape({
+    router4: PropTypes.shape({
       history: PropTypes.object.isRequired,
       route: PropTypes.object.isRequired,
       staticContext: PropTypes.object
@@ -30,16 +30,16 @@ class Route extends React.Component {
   }
 
   static childContextTypes = {
-    router: PropTypes.object.isRequired
+    router4: PropTypes.object.isRequired
   }
 
   getChildContext() {
-    const { router } = this.context
+    const { router4 } = this.context
     return {
-      router: {
-        ...this.context.router,
+      router4: {
+        ...this.context.router4,
         route: {
-          location: this.props.location || this.context.router.route.location,
+          location: this.props.location || this.context.router4.route.location,
           match: this.state.match
         }
       }
@@ -47,7 +47,7 @@ class Route extends React.Component {
   }
 
   state = {
-    match: this.computeMatch(this.props, this.context.router)
+    match: this.computeMatch(this.props, this.context.router4)
   }
 
   computeMatch({ computedMatch, location, path, strict, exact }, { route }) {
@@ -90,14 +90,14 @@ class Route extends React.Component {
     )
 
     this.setState({
-      match: this.computeMatch(nextProps, nextContext.router)
+      match: this.computeMatch(nextProps, nextContext.router4)
     })
   }
 
   render() {
     const { match } = this.state
     const { children, component, render } = this.props
-    const { history, route, staticContext } = this.context.router
+    const { history, route, staticContext } = this.context.router4
     const location = this.props.location || route.location
     const props = { match, location, history, staticContext }
 

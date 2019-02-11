@@ -13,17 +13,17 @@ class Router extends React.Component {
   }
 
   static contextTypes = {
-    router: PropTypes.object
+    router4: PropTypes.object
   }
 
   static childContextTypes = {
-    router: PropTypes.object.isRequired
+    router4: PropTypes.object.isRequired
   }
 
   getChildContext() {
     return {
-      router: {
-        ...this.context.router,
+      router4: {
+        ...this.context.router4,
         history: this.props.history,
         route: {
           location: this.props.history.location,

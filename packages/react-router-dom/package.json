@@ -1,6 +1,6 @@
 {
   "name": "mki-react-router-dom",
-  "version": "4.0.1",
+  "version": "4.0.2",
   "description": "DOM bindings for React Router",
   "repository": "sdemjanenko/react-router",
   "license": "MIT",
@@ -44,7 +44,7 @@
   },
   "dependencies": {
     "history": "^4.5.1",
-    "mki-react-router": "^4.0.0"
+    "mki-react-router": "^4.0.2"
   },
   "devDependencies": {
     "babel-cli": "^6.18.0",
