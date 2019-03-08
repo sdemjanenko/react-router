@@ -1,4 +1,4 @@
-export * from "react-router";
+export * from "mki-react-router";
 
 export { default as BrowserRouter } from "./BrowserRouter";
 export { default as HashRouter } from "./HashRouter";
